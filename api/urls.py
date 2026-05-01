@@ -1,5 +1,5 @@
 from django.urls import path
-from rest_framework_simplejwt.views import TokenRefreshView, TTokenBlacklistView
+from rest_framework_simplejwt.views import TokenRefreshView, TokenBlacklistView
 from . import views 
 
 urlpatterns = [
